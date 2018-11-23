@@ -7,3 +7,8 @@ logging:
     root: WARN
     com:
       orangeandbronze: DEBUG
+
+spring: # <---NEW SECTION
+  cloud:
+    services:
+      registrationMethod: direct
